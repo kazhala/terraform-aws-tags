@@ -26,11 +26,13 @@ No resources.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_application"></a> [application](#input\_application) | Name of the stack/application. | `string` | `null` | no |
+| <a name="input_backup"></a> [backup](#input\_backup) | Enable AWS backup. | `bool` | `false` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | Types of environment the application belongs to. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
+| <a name="output_backup"></a> [backup](#output\_backup) | Backup tags. |
 | <a name="output_standard"></a> [standard](#output\_standard) | Standard tags that should be present in all resources. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
