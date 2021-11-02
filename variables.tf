@@ -13,3 +13,9 @@ variable "application" {
   type        = string
   default     = null
 }
+
+variable "backup" {
+  description = "Enable AWS backup."
+  type        = bool
+  default     = false
+}
